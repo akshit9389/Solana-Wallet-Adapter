@@ -5,9 +5,9 @@ import { UnsafeBurnerWalletAdapter } from "@solana/wallet-adapter-wallets";
 import { WalletModalProvider,WalletDisconnectButton,WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { clusterApiUrl } from "@solana/web3.js";
 import "@solana/wallet-adapter-react-ui/styles.css";
-import Airdrop from "./components/airdrop";
+import Airdrop from "./components/Airdrop";
 import Balance from "./components/Balance";
-import Send from "./components/send";
+import Send from "./components/Send";
 function App() {
   return (
     <div className="bg-violet-300 flex-col justify-center items-center flex text-zinc-800 h-screen w-full p-2">
