@@ -6,6 +6,7 @@ import { WalletModalProvider,WalletDisconnectButton,WalletMultiButton } from "@s
 import { clusterApiUrl } from "@solana/web3.js";
 import "@solana/wallet-adapter-react-ui/styles.css";
 import Airdrop from "./components/airdrop";
+import Balance from "./components/Balance";
 function App() {
   return (
     <div className="bg-violet-300 text-zinc-800 h-screen w-full p-2">
@@ -18,6 +19,7 @@ function App() {
                 <WalletDisconnectButton />
               </div>
               <Airdrop />
+              <Balance />
             </div>
           </WalletModalProvider>
         </WalletProvider>
